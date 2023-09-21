@@ -1,4 +1,4 @@
-import 'package:clockapp/clockview.dart';
+import 'package:clockapp/app/screens/clockview.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatefulWidget {
