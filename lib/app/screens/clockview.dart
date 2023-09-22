@@ -17,7 +17,7 @@ class _ClockViewState extends State<ClockView> {
 
 @override void initState() {
 
-  Timer.periodic(Duration(seconds: 1),(timer){
+  Timer.periodic(const Duration(seconds: 1),(timer){
     setState(() {
 
     });
@@ -57,7 +57,7 @@ class ClockPainter extends CustomPainter {
     var center = Offset(centerX, centerY);
     var radius = min(centerX, centerY);
 
-    var fillBrush = Paint()..color = Color(0xFF444974);
+    var fillBrush = Paint()..color = const Color(0xFF444974);
 
     var OutlineBrush = Paint()
       ..color = Colors.white

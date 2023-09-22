@@ -14,8 +14,8 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
       body: Container(
         alignment:Alignment.center ,
-        color: Color(0xFF2D2F41),
-        child: ClockView(),
+        color:const  Color(0xFF2D2F41),
+        child: const ClockView(),
       ),
     );
   }
