@@ -62,7 +62,7 @@ class ClockPainter extends CustomPainter {
     var OutlineBrush = Paint()
       ..color = Colors.white
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 15;
+      ..strokeWidth = 16;
 
     var CenterBrush = Paint()
       ..color = Colors.white
