@@ -83,7 +83,7 @@ class ClockPainter extends CustomPainter {
           .createShader(Rect.fromCircle(center: center, radius: radius))
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round
-      ..strokeWidth = 13;
+      ..strokeWidth = 14;
 
     var hourHandBrush = Paint()
       ..color = Colors.deepOrange
